@@ -1,0 +1,231 @@
+
+.nav-container {
+    background-color: #191a23;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center
+}
+
+.logo-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-container .logo-container-logo {
+    width: 217px;
+    border-radius: 50px;
+    transition: transform 500ms;
+}
+
+.logo-container .logo-container-logo:hover {
+    transform:scale(1.3)
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row
+}
+
+.nav-button {
+    padding: 20px;
+}
+
+.nav-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-buttons {
+    display: flex;
+    transition: transform 500ms;
+}
+
+.nav-buttons:hover {
+    transform: scale(1.3);
+}
+
+.products-container {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.products-container .products-cells {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: solid #191a23;
+    border-radius: 20px;
+    width: 80%;
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+    transition: transform 500ms;
+}
+
+.products-container .products-cells:hover {
+    transform: scale(1.05);
+}
+
+.products-container .products-cells .products-images {
+    width: 300px;
+    height: 200px; 
+    overflow: hidden;
+    position: relative;
+}
+
+.products-container .products-cells .products-images img {
+    width: 100%;
+    height: auto; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.products-container .products-cells .products-p {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.products-container .products-cells .products-p h1 {
+    color: #b9ff66;
+    font-size: 40px;
+    text-shadow:  -1px 0px #191a23,
+    1px -1px 0px #191a23,   
+    -1px  1px 0px #191a23,   
+    1px  1px 0px #191a23;
+}
+
+.products-container .products-cells .products-p p {
+    font-size: 18px;
+}
+
+.footer-container {
+    display: flex;
+    margin: 50px;
+    border: solid #191a23;
+    padding: 10px;
+    background-color: #191a23;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.footer-container .link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 36px;
+}
+
+.footer-container .link-container .link-buttons {
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #b9ff66;
+    transition: transform 500ms;
+}
+
+.footer-container .link-container .link-buttons:hover {
+    transform: scale(1.2);
+}
+
+.footer-container .container-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-container .container-contact .contact-li {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: white;
+    font-size: 17px;
+} 
+
+.footer-container .container-contact .contact-li-contact {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: black;
+    font-size: 25px;
+    background-color: #b9ff66;
+    align-items: center;
+    border-radius: 10px;
+} 
+
+.footer-container .social-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-container .social-container .social-link-1 {
+    background-image: url(/images/ig_logo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    margin: 10px;
+    height: 55px;
+    border-radius: 37px;
+    width: 55px;
+    transition: transform 500ms;
+}
+
+.footer-container .social-container .social-link-1:hover {
+    transform:scale(1.2);
+}
+
+.footer-container .social-container .social-link-2 {
+    background-image: url(/images/facebook_logo.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    margin: 10px;
+    height: 55px;
+    border-radius: 37px;
+    width: 55px;
+    transition: transform 500ms;
+}
+
+.footer-container .social-container .social-link-2:hover {
+    transform: scale(1.2);
+}
+
+.footer-container .social-container .social-link-3 {
+    background-image: url(/images/X_logo.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    margin: 10px;
+    height: 54px;
+    border-radius: 37px;
+    width: 55px;
+    transition: transform 500ms;
+}
+
+.footer-container .social-container .social-link-3:hover {
+    transform: scale(1.2);
+}

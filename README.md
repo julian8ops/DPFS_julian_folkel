@@ -10,3 +10,8 @@
 - Mostaza: Es una cadena de comidas rapidas fundada en el 2000 en Buenos Aires, Argentina. [Mostaza](https://www.mostazaweb.com.ar/)
 - Betos Lomos: Es una cadena de comidas rapidas fundada en 1983 en Cordoba, Argentina. [Betos Lomos](https://betos.com.ar/)
 - Wendy´s: Es una cadena de comidas rapidas fundada el 15 de noviembre de 1969 en Columbus, Ohio, Estados Unidos. [Wendy´s](https://www.wendys.com.ar/).
+
+
+
+## Tablero de Trello
+(https://trello.com/invite/b/66f0627ec4a405afe0e20401/ATTI7ea990250de060bc2e112b9c6ee3f2ef6B2792C7/tablero-de-sprints)

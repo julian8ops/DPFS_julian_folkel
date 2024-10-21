@@ -1,0 +1,20 @@
+{
+  "name": "dpfs_julian_folkel",
+  "version": "1.0.0",
+  "description": "> IBDb es una aplicacion dedicada a la comparacion de precios, ingredientes, y opiniones de cadenas de comida rapida (hamburguesas) en Argentina.",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

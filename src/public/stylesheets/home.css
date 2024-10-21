@@ -1,0 +1,382 @@
+
+.nav-container {
+    background-color: #191a23;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+
+.welcome-info-h1 {
+    font-size: 50px
+}
+
+.welcome-info-p {
+    font-size: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center
+}
+
+.logo-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-container .logo-container-logo {
+    width: 217px;
+    border-radius: 50px;
+    transition: transform 500ms;
+}
+
+.logo-container .logo-container-logo:hover {
+    transform:scale(1.3)
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row
+}
+
+.nav-button {
+    padding: 20px;
+}
+
+.nav-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-buttons {
+    display: flex;
+    transition: transform 500ms;
+}
+
+.nav-buttons:hover {
+    transform: scale(1.3);
+}
+
+.welcome-info {
+    display: flex;
+    align-items: center;
+    margin: 45px
+}
+
+.welcome-buttons {
+    display: flex;
+    flex-direction: row
+}
+
+.welcome-buttons a {
+    text-decoration: none;
+    margin: 30px;
+    padding: 20px;
+    width: 148px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #191a23;
+    color: white;
+    transition: transform 500ms;
+}
+
+.welcome-buttons a:hover {
+    transform: scale(1.2)
+}
+
+.card-container {
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card-container-div-1 {
+    background-color: #191a23;
+    padding: 50px;
+    width: 771px;
+    display: flex;
+    height: 300px;
+    border-radius: 40px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-image: url(/images/mcdonalds.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 500ms;
+}
+
+.card-container-div-1:hover {
+    transform: scale(1.03);
+}
+
+.card-container-div-2 {
+    background-color: #191a23;
+    padding: 50px;
+    width: 771px;
+    display: flex;
+    height: 300px;
+    border-radius: 40px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-image: url(/images/bk.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 500ms;
+}
+
+.card-container-div-2:hover {
+    transform: scale(1.03);
+}
+
+.card-container-div-3 {
+    background-color: #191a23;
+    padding: 50px;
+    width: 771px;
+    display: flex;
+    height: 300px;
+    border-radius: 40px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-image: url(/images/betos_lomos_logo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 500ms;
+}
+
+.card-container-div-3:hover {
+    transform: scale(1.03);
+}
+
+.card-container-div-4 {
+    background-color: #191a23;
+    padding: 50px;
+    width: 771px;
+    display: flex;
+    height: 300px;
+    border-radius: 40px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-image: url(/images/mostaza.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 500ms;
+}
+
+.card-container-div-4:hover {
+    transform: scale(1.03);
+}
+
+.welcome-info .welcome-info-h1 .welcome-info-h1-p {
+    display: contents;
+    color: #b9ff66;
+}
+
+.comments-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin: 95px;
+    background-color: #191a23;
+    color: white;
+    border-radius: 58px;
+    margin-top: 130px;
+}
+
+.contact-buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    margin-bottom: 5px;
+}
+
+.contact-buttons .contact-us {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: #191a23;
+    color: white;
+    border-radius: 58px;
+    width: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.contact-p {
+    display: flex;
+    margin: 50px;
+    font-size: 20px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid #9E9E9E;
+    border-radius: 40px;
+    background-color: #9E9E9E;
+    height: 500px;
+    justify-content: center;
+}
+
+.contact-container .input-comments {
+    margin: 20px;
+    padding: 10px;
+    width: 500px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.contact-container .button-comments {
+    margin: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 30%;
+    border-radius: 40px;
+    background-color: #191a23;
+    border-color: transparent;
+    color: white;
+    margin-top: 50px
+}
+
+.contact-container .input-comments-message {
+    margin: 20px;
+    padding: 10px;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.footer-container {
+    display: flex;
+    margin: 50px;
+    border: solid #191a23;
+    padding: 10px;
+    background-color: #191a23;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.footer-container .link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 36px;
+}
+
+.footer-container .link-container .link-buttons {
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #b9ff66;
+    transition: transform 500ms;
+}
+
+.footer-container .link-container .link-buttons:hover {
+    transform: scale(1.2);
+}
+
+.footer-container .container-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-container .container-contact .contact-li {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: white;
+    font-size: 17px;
+} 
+
+.footer-container .container-contact .contact-li-contact {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: black;
+    font-size: 25px;
+    background-color: #b9ff66;
+    align-items: center;
+    border-radius: 10px;
+} 
+
+.footer-container .social-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-container .social-container .social-link-1 {
+    background-image: url(/images/ig_logo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    margin: 10px;
+    height: 55px;
+    border-radius: 37px;
+    width: 55px;
+    transition: transform 500ms;
+}
+
+.footer-container .social-container .social-link-1:hover {
+    transform:scale(1.2);
+}
+
+.footer-container .social-container .social-link-2 {
+    background-image: url(/images/facebook_logo.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    margin: 10px;
+    height: 55px;
+    border-radius: 37px;
+    width: 55px;
+    transition: transform 500ms;
+}
+
+.footer-container .social-container .social-link-2:hover {
+    transform: scale(1.2);
+}
+
+.footer-container .social-container .social-link-3 {
+    background-image: url(/images/X_logo.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    margin: 10px;
+    height: 54px;
+    border-radius: 37px;
+    width: 55px;
+    transition: transform 500ms;
+}
+
+.footer-container .social-container .social-link-3:hover {
+    transform: scale(1.2);
+}

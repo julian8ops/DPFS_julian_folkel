@@ -1,0 +1,65 @@
+.login-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.login-container .form-container {
+    border: solid #191a23;
+    display: flex;
+    padding: 130px;
+    border-radius: 100px;
+    background-color: #191a23;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container .form-container .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container .form-container .login-form .inputs {
+    margin: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 40px;
+    border-color: #b9ff66
+}
+
+.login-container .form-container .login-form .inputs-login {
+    margin: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 80%;
+    border-radius: 40px;
+    background-color: #b9ff66;
+    border-color: transparent;
+}
+
+.login-container .form-container .login-form .register-button {
+    margin: 50px;
+    color: white;
+}
+
+.login-container .form-container .login-form .home-container {
+    display: flex;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.login-container .form-container .login-form .home-image {
+    background-image: url(/images/IBDb_logo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    color: transparent;
+    width: 300px;
+}
+
